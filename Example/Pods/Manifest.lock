@@ -1,6 +1,6 @@
 PODS:
   - Nimble (7.3.4)
-  - Omocodia (0.1.0)
+  - Omocodia (0.2.1)
   - Quick (1.2.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Omocodia: fcee5be7f36194db7039bab9fcffac737c519615
+  Omocodia: 5ca986114b98d0972ef735cf565cf5c6b75a15ef
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
 PODFILE CHECKSUM: e067013c8fa6f8a49dc027339e572698ab0e9c7b

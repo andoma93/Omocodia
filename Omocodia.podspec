@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Omocodia'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Omocodia helps to validate and calculate italian fiscal code.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.swift_version = '5.2'
 
-  s.source_files = 'Omocodia/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'Omocodia' => ['Omocodia/Assets/*.png']
