@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Omocodia'
-  s.version          = '0.1.0'
+  s.version          = '0.2.1'
   s.summary          = 'Omocodia helps to validate and calculate italian fiscal code.'
 
 # This description is used to generate tags and improve search results.
