@@ -1,0 +1,6 @@
+framework module Omocodia {
+  umbrella header "Omocodia-umbrella.h"
+
+  export *
+  module * { export * }
+}
