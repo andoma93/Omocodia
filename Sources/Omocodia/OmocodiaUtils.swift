@@ -15,7 +15,8 @@ public class OmocodiaUtils{
             try checkLength(fiscalCode: normalizedFiscalCode)
             try checkBirthDate(fiscalCode: normalizedFiscalCode)
             // TODO: Insert here other checks
-        }catch (let _){
+        }catch (let error){
+            print(error)
             return false
         }
         return true
