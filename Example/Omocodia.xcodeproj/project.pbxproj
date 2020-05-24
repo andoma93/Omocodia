@@ -12,8 +12,9 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C63212DBBD0209B7B4E05F72 /* Pods_Omocodia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671D99C0BC415ACED4615C27 /* Pods_Omocodia_Example.framework */; };
+		C6C4630B2471932D005FE36C /* OmocodiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C46307247192B0005FE36C /* OmocodiaTests.swift */; };
+		C6C4630C24719338005FE36C /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C46308247192B0005FE36C /* XCTestManifests.swift */; };
 		FCE2D0350CA48E97F303F168 /* Pods_Omocodia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A999DE24DF3F9A1402FA8BF /* Pods_Omocodia_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +39,14 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Omocodia_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omocodia_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		671D99C0BC415ACED4615C27 /* Pods_Omocodia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omocodia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725EADBC62049044528D5732 /* Pods-Omocodia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omocodia_Example.debug.xcconfig"; path = "Target Support Files/Pods-Omocodia_Example/Pods-Omocodia_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A999DE24DF3F9A1402FA8BF /* Pods_Omocodia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omocodia_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB0626F0BE7C37860C31695 /* Omocodia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Omocodia.podspec; path = ../Omocodia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98CEA196917BD51556C9B5C9 /* Pods-Omocodia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omocodia_Tests.release.xcconfig"; path = "Target Support Files/Pods-Omocodia_Tests/Pods-Omocodia_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ADF0F6A94E7616E7A2D5F00B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6C46307247192B0005FE36C /* OmocodiaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OmocodiaTests.swift; path = ../../Tests/OmocodiaTests/OmocodiaTests.swift; sourceTree = "<group>"; };
+		C6C46308247192B0005FE36C /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCTestManifests.swift; path = ../../Tests/OmocodiaTests/XCTestManifests.swift; sourceTree = "<group>"; };
 		D363E97F9658E436BD357D47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FFEB606043D8A69746BD2ECA /* Pods-Omocodia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omocodia_Example.release.xcconfig"; path = "Target Support Files/Pods-Omocodia_Example/Pods-Omocodia_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +117,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				C6C46307247192B0005FE36C /* OmocodiaTests.swift */,
+				C6C46308247192B0005FE36C /* XCTestManifests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -361,7 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				C6C4630B2471932D005FE36C /* OmocodiaTests.swift in Sources */,
+				C6C4630C24719338005FE36C /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
